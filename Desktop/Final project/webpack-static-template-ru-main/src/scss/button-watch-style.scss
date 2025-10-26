@@ -1,0 +1,13 @@
+@import "colors";
+@import "fonts";
+
+.content__button--watch{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:8px;
+    border: 1px solid transparent;
+    background-color: transparent;
+    cursor: pointer;
+    white-space: nowrap;
+}

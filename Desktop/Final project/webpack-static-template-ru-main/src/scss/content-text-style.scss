@@ -1,0 +1,17 @@
+@import 'colors';
+@import "fonts";   
+
+.content__text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.2px;
+    display: flex;
+    width: 288px;
+    height: 90px;
+    overflow: hidden;
+    padding-left: 16px;
+    color: $text-color;
+    
+
+}
