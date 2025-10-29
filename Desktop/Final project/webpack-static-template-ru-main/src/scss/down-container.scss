@@ -1,0 +1,30 @@
+@import "fonts";
+@import "colors";
+
+.down-container{
+    font-family: "TT Lakes";
+    width: 288px;
+    height:191.98px;
+    padding-left:16px;
+    &__text{
+        font-weight:400;
+        font-size:14px;
+        line-height: 20px;
+        letter-spacing:0.2px;
+        color:$text-color;
+    }
+    &__button{
+        font-family: "TT Lakes";
+        display: flex;
+        justify-content: flex-start;
+        width:192px;
+        height: auto;
+        border:transparent;
+        background-color:$main-color;
+        font-weight: 500;
+        font-size: 16px;
+        line-height:24px;
+        letter-spacing:-0.2px;
+
+    }
+}
