@@ -1,7 +1,7 @@
 @import "colors";
 @import "fonts";
 
-.services__list{
+.content__list--service{
     min-height: 40px;
     display:flex;
     padding-left:16px;
@@ -10,6 +10,7 @@
     gap:34px;
     overflow: auto;
     scrollbar-width: none;
+    padding-top:24px;
 }
 
 .content__item--servic{
@@ -21,10 +22,18 @@
     cursor: pointer;
     width:233px;
     height: 40px;
-    border: 2px solid $border-color;
+    border: 2px solid transparent;
     border-radius:6px;
     display: flex;
     align-items: center;
     justify-content: center;
     white-space: nowrap;
+    padding-left: 16.54px;
+    padding-right:9.3px;
+}
+
+.content__item--servic:hover,
+.content__item--servic:focus{
+    background-color:#ffffff;
+    border-color:#B8FFEC;
 }

@@ -1,9 +1,11 @@
+@use 'tablet';
 @use "content-text-style";
 @import 'colors';
 @import "fonts";
 @import "services-list-style";
 @import "button-watch-style";
-@import "swiper";
+@import "swiper-style";
+
 
 body{
     min-width: 320px;
@@ -45,7 +47,7 @@ body{
     align-items: center;
     margin-left: 16.73px;
     }
-    
+
 }
   
 li{
@@ -79,14 +81,13 @@ li{
     }   
 
 /*content*/
-.content-wrapper{
+.content{
     width: 100%;
     height: auto;
     background-color: $main-color;
    margin: 0;
-}
 
- h1.content__title{
+   &__title{
         display: flex;
         align-items: center;
         margin: 0;
@@ -96,11 +97,24 @@ li{
         letter-spacing: -0.6px;
         gap:16px;
 
-}
-
-
-.title__line{
+        &--line{
             width: 4px;
             height: 32px;
             background-color: $title-border-color
         }
+
+}
+
+   &__image{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 16px;
+    }
+}
+
+
+
+
