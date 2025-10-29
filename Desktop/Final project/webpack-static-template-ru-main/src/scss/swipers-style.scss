@@ -1,12 +1,12 @@
 @import "fonts";
-
+@import "colors";
 
 body{
     font-family: "TT Lakes";
     min-width: 320px;
     padding: 0;
     margin: 0;
-    background-color: #F8F8F8;
+    background-color: $main-color;
 }
 
 
@@ -16,17 +16,19 @@ body{
     width: 100%;
     height: 80px;
     padding-left: 16px;
-    border-top:1px solid #D9FFF5;
+    border-top:1px solid $swiper-title-color;
     font-weight:400;
     font-size:16px;
     line-height: 24px;
     letter-spacing:-0.2px;
     text-transform: uppercase;
-    color: #7E7E82;
-    background:linear-gradient(to right,#f8f8f8,#ffffff);
+    color:$button-color;
+    background:$gradient;
 }
 
 .swiper-wrapper{
+    width: 100%;
+    height: auto;
     display: flex;
     gap:16px;
 }
@@ -51,9 +53,9 @@ body{
     height: 72px;
     display: flex;
     align-items: center;
-    border:1px solid #eaeaea;
+    border:1px solid $line-color;
     border-radius:6px;
-    background-color:#ffffff;
+    background-color:$nav-color;
 }
 
 .content__logo-section{
@@ -97,8 +99,8 @@ body{
 }
 
 .arrow-go__second--section{
-    width: 100%;
-    height:105px;
+    position: relative;
+    top:40px;
     display: flex;
     justify-content: flex-end;
     align-items:end;
@@ -114,7 +116,7 @@ body{
 
 .swiper-slide__prise--wrapper{
     width:260px;
-    max-height:200px;
+    height:200;
     border-radius:6px;
     background-color: #ffffff;
     padding-left:16px;
@@ -134,8 +136,8 @@ body{
 
 .button-wrapper{
     position:relative;
-    left:45%;
-    bottom:20%;
+    left: 130px;
+    bottom:40px;
 }
 
 .button--order{
@@ -175,10 +177,6 @@ body{
     margin-top:16px;
 }
 
-/*display none*/
-.brands-container{
-    display: none;
-}
 .swiper-third{
      padding-top: 16px;
     padding-left: 16px;

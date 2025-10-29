@@ -8,6 +8,8 @@
     />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title><%= htmlWebpackPlugin.options.title %></title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="style.css">
   </head>
   <body>
    <nav class="navigation">
@@ -31,38 +33,38 @@
             class="navigation__button--icon">
         </button>
     </li>
-    <li class="navigation__button">
-        <button class="navigation__button--icon button--add">
-            <img src="./img/chat.svg" alt="chat" 
-            class="navigation__button--icon">
-        </button>
-    </li>
-    <li class="navigation__button">
-        <button class="navigation__button--icon button--add">
-            <img src="./img/profile.svg" alt="profile"
-            class="navigation__button--icon ">
-        </button>
-    </li>
+        <li class="navigation__button">
+            <button class="navigation__button--icon button--add">
+                <img src="./img/chat.svg" alt="chat" 
+                class="navigation__button--icon">
+            </button>
+        </li>
+        <li class="navigation__button">
+            <button class="navigation__button--icon button--add">
+                <img src="./img/profile.svg" alt="profile"
+                class="navigation__button--icon ">
+            </button>
+        </li>
 
-    <div class="line">
-    </div>
+        <div class="line">
+        </div>
 
-    <div class="right--button">
-    <li class="navigation__button">
-        <button class="navigation__button--icon">
-            <span class="navigation__button button__text--add">Оставить заявку</span>
-            <img src="./img/seting.svg" alt="seting"
-            class="navigation__button--icon button--seting">
-        </button>
-    </li>
-    <li class="navigation__button">
-        <button class="navigation__button--icon">
-            <span class="navigation__button button__text--add">Статус ремонта</span>
-            <img src="./img/search.svg" alt="search"
-            class="navigation__button--icon button--search">
-        </button>
-    </li>
-    </div>
+        <div class="right--button">
+            <li class="navigation__button">
+                <button class="navigation__button--icon">
+                    <span class="navigation__button button__text--add">Оставить заявку</span>
+                    <img src="./img/seting.svg" alt="seting"
+                    class="navigation__button--icon button--seting">
+                </button>
+            </li>
+            <li class="navigation__button">
+                <button class="navigation__button--icon">
+                    <span class="navigation__button button__text--add">Статус ремонта</span>
+                    <img src="./img/search.svg" alt="search"
+                    class="navigation__button--icon button--search">
+                </button>
+            </li>
+        </div>
     </ul>
     </nav>
     <div class="content">
@@ -403,8 +405,16 @@
                 </div>
                 <span class="swiper__pagination--third"></span>
         </div>
+        
+        <div class="down-container">
+            <p class="down-container__text">
+                Все цены указаны с учетом НДС.
+                Стоимость ремонта указана на единичную услугу.
+                Для получения коммерческого предложения на постоянное обслуживание, оставьте заявку.
+            </p>
+            button.
+        </div>
 
-<script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
-<script src="../src/js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
   </body>
 </html>

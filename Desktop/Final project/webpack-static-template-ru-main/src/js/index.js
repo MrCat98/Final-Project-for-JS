@@ -1,5 +1,4 @@
 import '../scss/style.scss'
-import'../scss/swiper-style.scss'
 
 
 console.log('It works!')
